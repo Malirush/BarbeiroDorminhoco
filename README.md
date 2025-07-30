@@ -1,8 +1,7 @@
 # Projeto: Barbearia Concorrente
 
 Disciplina: Paradigmas de Programação  
-Professor: Sidney Nogueira  
-Alunos: [Nome dos integrantes do grupo]
+Aluno: Luis Felipe Coelho
 
 ---
 
@@ -19,12 +18,12 @@ Este projeto simula o funcionamento de uma barbearia utilizando programação co
   - Sentam-se se houver lugar disponível.
   - Desistem se a fila estiver cheia.
   - Desistem ao ver todos os barbeiros dormindo.
-  - Também podem desistir espontaneamente da fila, com chance aleatória.
+  - Também podem desistir espontaneamente da fila quando estão sentadas, com chance aleatória.
 
 - Barbeiros trabalham em paralelo:
   - Dormem quando não há clientes.
   - Acordam ao receber um cliente.
-  - Cortam o cabelo dos clientes com duração aleatória.
+  - Cortam o cabelo dos clientes com duração de 2 a 3 seg.
 
 ---
 
@@ -91,6 +90,7 @@ O sistema foi testado com os seguintes cenários:
 
 O código foi desenvolvido exclusivamente para este projeto.  
 Este arquivo README foi redigido com apoio de ferramenta de IA para organização textual e estruturação.
+A utilização foi feita em grande parte an busca por bibliotecas e funções das mesmas para a realização de ideias.
 
 ---
 
